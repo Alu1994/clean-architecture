@@ -10,3 +10,10 @@
     - **Foco no essencial** para o usuário.
     - Construir somente **o que é necessário quando for necessário**.
     - A Arquitetura Limpa ajuda na **Otimização e Manutenabilidade**, que é a maioria das atividades do nosso dia a dia.
+
+### Domain Centric Architecture
+
+- O principal motivo para implementar o Modelo de Arquitetura Centrada em Domínio é focar no que é mais importante o Dominio de Negócio.
+    - **Focar no domínio** é essencial para os "habitantes", pois é o ponto mais importante para eles na nossa arquitetura.
+    - Nos da **menos acoplamento** entre a lógica de domínio e os detalhes de implementação como apresentação, banco de dados e o sistema operacional. Com isso o sistema fica mais flexível e adaptável, e mais simples de evoluir a arquitetura ao redor durante os anos de desenvolvimento e manutenção do projeto.
+    - **Nos possibilita usar o DDD**, que é um auxiliar para generenciar domínios de negócio com um alto grau de complexidade.
