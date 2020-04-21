@@ -23,6 +23,8 @@
         - **Requere mais análise**, para saber exatamente o que pertence a camada de Domínio e o que pertence a camada de Aplicação.
         - **Maior custo inicial**, no começo o custo pode ser maior devida a maior complexidade de implementação do padrão, mas normalmente ela se paga ao passar do tempo.
 - **Obs**: Um domínio não pode ter nada além do domínio de negócio em si que será representado no código, tudo fora isso, classes, métodos, qualquer código que não represente o domínio de négocio, deve ficar fora deste projeto.
-    ```
-    Ex: Camadas de apresentação, infraestrutura, persistencia, etc.
-    ```
+    - Ex: 
+        - Camadas de apresentação
+        - Infraestrutura
+        - Persistencia
+    
