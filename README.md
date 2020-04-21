@@ -49,6 +49,6 @@
 #### Classic Three-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Three-Layer_Architecture.png" />
 
-#### Classic Four-Layer Architecture
-   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Four-Layer_Architecture.png" />
+#### Modern Four-Layer Architecture
+   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Modern_Four-Layer_Architecture.png" />
    
