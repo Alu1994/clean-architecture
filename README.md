@@ -32,14 +32,14 @@
         - Infraestrutura
         - Persistencia
 
-### What are Layers?
-    - Layers são limites ou partições verticais de um aplicativo ou projeto que ajudam a gerenciar complexidade.
-    Eles ajudam a:
-        - Representar diferentes níveis de abstração
-        - Manter o princípio de responsabilidade única
-        - Isolar grupos e skills
-        - Suportar várias implementações
-        - E ajudar nas alterações e variações.
+### O que são Layers?
+   - Layers são limites ou partições verticais de um aplicativo ou projeto que ajudam a gerenciar complexidade.
+        - Eles ajudam a:
+            - Representar diferentes níveis de abstração
+            - Manter o princípio de responsabilidade única
+            - Isolar grupos e skills
+            - Suportar várias implementações
+            - E ajudar nas alterações e variações.
         
         
 
