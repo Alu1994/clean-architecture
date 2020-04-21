@@ -44,4 +44,9 @@
         
 
 ### Application Layer
+    - É onde fica todo o caso de uso do projeto, as ações que são necessárias para cumprir um determinado objetivo, seja gravar um registro, executar um processo ou buscar um relatório.
+
+#### Classic Three-Layer Architecture
     
+#### Classic Four-Layer Architecture
+
