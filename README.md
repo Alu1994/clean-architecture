@@ -9,3 +9,4 @@
     - **Implementações complexas** só devem ser feitas caso o beneficio ao usuário/desenvolvedor seja maior do que sua complexidade.
     - **Foco no essencial** para o usuário.
     - Construir somente **o que é necessário quando for necessário**.
+    - A Arquitetura Limpa ajuda na **Otimização e Manutenabilidade**, que é a maioria das atividades do nosso dia a dia.
