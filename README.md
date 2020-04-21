@@ -41,14 +41,11 @@
             - Suportar várias implementações
             - E ajudar nas alterações e variações.
         
-        
-
-### Application Layer
-   - É onde fica todo o caso de uso do projeto, as ações que são necessárias para cumprir um determinado objetivo, seja gravar um registro, executar um processo ou buscar um relatório.
-
 #### Classic Three-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Three-Layer_Architecture.png" />
 
 #### Modern Four-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Modern_Four-Layer_Architecture.png" />
-   
+
+### Application Layer
+   - É onde fica todo o caso de uso do projeto, as ações que são necessárias para cumprir um determinado objetivo, seja gravar um registro, executar um processo ou buscar um relatório.
