@@ -1,6 +1,6 @@
 # Domain Driven Design
 
-### Clean Architecture
+## Clean Architecture
 
 - O principal motivo para implementar Arquitetura limpa é para o beneficio de seus "habitantes".
     - **É em pról dos usuários do sistema:** para que ele tenha a melhor experiencia possivel.
