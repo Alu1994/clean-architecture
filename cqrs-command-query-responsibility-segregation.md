@@ -60,4 +60,4 @@
   ### Contras:
    - Existe uma inconsistencia intencional na stack de _Command_ que não há na stack de _Query_, podemos querer alterar e retornar dados.
    - Utilizar 2 bancos de dados adiciona maior complexidade como por exemplo ter consistencia eventual.
-   - _Event Source_ aumento o custo de manutenção de terceirização dos eventos. Se você não estiver obtendo valor comercial suficiente desses recursos, _Event Sourcing_ pode não se pagar ao longo do projeto.
+   - _Event Source_ aumenta o custo de manutenção do projeto. Se você não estiver obtendo valor comercial suficiente desses recursos, _Event Sourcing_ pode não se pagar ao longo do projeto.
