@@ -1,4 +1,4 @@
-## Clean Architecture
+# Clean Architecture
 
 - O principal motivo para implementar Arquitetura limpa é para o beneficio de seus "habitantes".
     - **É em pról dos usuários do sistema:** para que ele tenha a melhor experiencia possivel.
@@ -9,7 +9,7 @@
     - Construir somente **o que é necessário quando for necessário**.
     - A Arquitetura Limpa ajuda na **Otimização e Manutenabilidade**, que é a maioria das atividades do nosso dia a dia.
 
-### Domain Centric Architecture
+## Domain Centric Architecture
 
 - O principal motivo para implementar o Modelo de Arquitetura Centrada em Domínio é focar no que é mais importante o Dominio de Negócio.
     - Tipos de Domain Centric Architecture:
@@ -30,7 +30,7 @@
         - Infraestrutura
         - Persistencia
 
-### O que são Layers?
+## O que são Layers?
    - Layers são limites ou partições verticais de um aplicativo ou projeto que ajudam a gerenciar complexidade.
         - Eles ajudam a:
             - Representar diferentes níveis de abstração
@@ -39,8 +39,8 @@
             - Suportar várias implementações
             - E ajudar nas alterações e variações.
         
-#### Classic Three-Layer Architecture
+### Classic Three-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Three-Layer_Architecture.png" />
 
-#### Modern Four-Layer Architecture
+### Modern Four-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Modern_Four-Layer_Architecture.png" />
