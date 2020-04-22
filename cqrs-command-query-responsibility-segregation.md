@@ -10,3 +10,5 @@
     - Ele **não deve** alterar o estado do sistema.
     - Ele **deve** retornar um valor.
 - Também deveriamos separar os dois conceitos(_Command & Query_) **quando possível**, para não criar métodos complexos e possívelmente problematicos que violem este princípio.
+
+<img src="https://github.com/matsennin/domain-driven-design/blob/master/images/CQRS_Architecture.png" />
