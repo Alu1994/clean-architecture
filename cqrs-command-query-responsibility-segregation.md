@@ -41,5 +41,11 @@
   ### Event Sourcing CQRS
    - Não é armazenado o estado corrente das entidades em uma base de dados normalizada.
    - É armazenado somente os eventos de modificações das entidades ao longo do tempo, representados como eventos que ocorreram nas entidades. O histórico de todos os eventos ocorridos é armazenado em um meio chamado de _Event Store_.
-   
-   
+   - Quando precisamos saber o estado atual de uma entidade, nós reproduzimos os eventos ocorridos nessa entidade e acabamos com o seu estado atual.
+   - Após isso e ter o estado atual, nós executamos nossa lógica de domínio e modificamos o estado da entidade. Esse novo evento será armazenado em nosso _Event Store_, que será executado quando o seu novo estado atual for requisitado.
+   - Finalmente nós enviamos o estado corrente do domínio para a base de dados de leitura, para que nossas queries sejam rápidas.
+   - Ele é o mais complexo dos 3.
+   - Como temos todos os eventos ocorridos em uma entidade armazenados, teremos a completa auditoria do sistema.
+   - Podemos reconstruir o estado de uma entidade em qualquer ponto do tempo, assim temos todo o histórico o que facilita muito também no _debug_.
+   - É possível ter multiplas bases de dados de leitura.
+   - É possível reconstruir a base de dados de produção simplesmente re-executando os eventos.
