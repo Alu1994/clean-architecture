@@ -52,7 +52,7 @@
    - Infelizmente pode ser muito caro se você não precisa de nenhum desses recursos.
    
 
-## Prós e Contras de utilizar CQRS :) :(
+## Prós :) e Contras :( de utilizar CQRS
   ### Prós
    - Caso esteja implementando Domain Centric Design, usar CQRS é mais eficiente, pois Comandos são criados especificamente para executar modificações e manipulação no dominio e Queries para leitura.
    - Usando CQRS estamos otimizando leitura e escrita, e dependendo do tipo de CQRS que utilizamos o ganho de performance pode ser ainda maior.
