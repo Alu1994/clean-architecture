@@ -53,4 +53,11 @@
    
 
 ## Prós e Contras de utilizar CQRS :) :(
-  
+  ### Prós
+   - Caso esteja implementando Domain Centric Design, usar CQRS é mais eficiente, pois Comandos são criados especificamente para executar modificações e manipulação no dominio e Queries para leitura.
+   - Usando CQRS estamos otimizando leitura e escrita, e dependendo do tipo de CQRS que utilizamos o ganho de performance pode ser ainda maior.
+   - O beneficio de usar Event Sourcing, no processo de auditoria por exemplo ajudando o negócio, e também os desenvolvedores.
+  ### Contras:
+   - Existe uma inconsistencia intencional na stack de _Command_ que não há na stack de _Query_, podemos querer alterar e retornar dados.
+   - Utilizar 2 bancos de dados adiciona maior complexidade como por exemplo ter consistencia eventual.
+   - _Event Source_ aumento o custo de manutenção de terceirização dos eventos. Se você não estiver obtendo valor comercial suficiente desses recursos, _Event Sourcing_ pode não se pagar ao longo do projeto.
