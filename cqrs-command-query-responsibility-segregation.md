@@ -49,3 +49,5 @@
    - Podemos reconstruir o estado de uma entidade em qualquer ponto do tempo, assim temos todo o histórico o que facilita muito também no _debug_.
    - É possível ter multiplas bases de dados de leitura.
    - É possível reconstruir a base de dados de produção simplesmente re-executando os eventos.
+   - Infelizmente pode ser muito caro se você não precisa de nenhum desses recursos.
+   
