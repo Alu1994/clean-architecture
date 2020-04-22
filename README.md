@@ -1,5 +1,8 @@
 # Domain Driven Design
 
+## [Clean Architecture](https://github.com/matsennin/domain-driven-design/blob/master/clean-architecture.md)
+## [CQRS](https://github.com/matsennin/domain-driven-design/blob/master/cqrs-command-query-responsibility-segregation.md)
+
 ### Application Layer
    - É onde fica todo o caso de uso do projeto, as ações que são necessárias para cumprir um determinado objetivo, seja gravar um registro, executar um processo ou buscar um relatório.
    - Prós:
