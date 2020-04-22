@@ -1,6 +1,7 @@
 # Command Query Responsibility Segregation
 
-- Segundo _**Bertrand Meyer**_ nós temos 2 tipos de métodos em POO.
+## O que é CQRS
+- É a divisão das atividades por responsabilidade. Segundo _**Bertrand Meyer**_ nós temos 2 tipos de métodos em POO.
   - **Command**:
     - Ele faz algo.
     - Ele **deve** modificar o estado do sistema.
