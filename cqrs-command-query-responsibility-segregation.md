@@ -39,4 +39,7 @@
    - Os dados salvos no banco de dados de escrita são sincronizados através de uma transação coordenação dos dados ou usando um padrão de Consistencia Eventual.
    - Ele é mais complexo que o primeiro, porém ele beneficia as melhorias de performance na parte de leitura do projeto.
   ### Event Sourcing CQRS
-   - 
+   - Não é armazenado o estado corrente das entidades em uma base de dados normalizada.
+   - É armazenado somente os eventos de modificações das entidades ao longo do tempo, representados como eventos que ocorreram nas entidades. O histórico de todos os eventos ocorridos é armazenado em um meio chamado de _Event Store_.
+   
+   
