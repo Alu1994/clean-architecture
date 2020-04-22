@@ -1,7 +1,9 @@
 # Command Query Responsibility Segregation
 
 ## O que é CQRS?
-- É a divisão das atividades por responsabilidade. Segundo _**Bertrand Meyer**_ nós temos 2 tipos de métodos em POO.
+- É a divisão das atividades por responsabilidade, é a ideia de Domain Centric Architecture implementado de uma maneira inteligente, pois ele sabe como conversar com o domínio, via _Commands_ e quando conversar direto com a base de dados via _Queries_.
+
+- Segundo _**Bertrand Meyer**_ nós temos 2 tipos de métodos em POO.
   - **Command**:
     - Ele faz algo.
     - Ele **deve** modificar o estado do sistema.
@@ -23,6 +25,5 @@
   - Comandos mudam estado, executam comportamentos nos objetos de domínio, levantam eventos e escrevem na base de dados.
   - Queries usam qualquer meio para retornar os dados de forma mais performatica, projetam os dados em formato de apresentação e disponibilizam ao usuário.
   - Seguindo as ideias dos dois conceitos a segregação e clareza do código aumentam.
-  - CQRS é a ideia de Domain Centric Architecture implementado de uma maneira inteligente, pois ele sabe como conversar com o domínio, via _Commands_ e quando conversar direto com a base de dados via _Queries_.
   
 ## Existem 3 tipos de implementação de CQRS
