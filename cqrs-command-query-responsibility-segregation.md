@@ -51,3 +51,6 @@
    - É possível reconstruir a base de dados de produção simplesmente re-executando os eventos.
    - Infelizmente pode ser muito caro se você não precisa de nenhum desses recursos.
    
+
+## Prós e Contras de utilizar CQRS :) :(
+  
