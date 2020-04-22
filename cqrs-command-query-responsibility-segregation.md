@@ -9,4 +9,4 @@
     - Responde uma chamada/pergunta.
     - Ele **não deve** alterar o estado do sistema.
     - Ele **deve** retornar um valor.
-- Também deveriamos separar os dois conceitos(_Command & Query_) **quando possível**, para não criar métodos que violem este princípio.
+- Também deveriamos separar os dois conceitos(_Command & Query_) **quando possível**, para não criar métodos complexos e possívelmente problematicos que violem este princípio.
