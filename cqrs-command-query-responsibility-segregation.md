@@ -11,6 +11,7 @@
     - Ele **deve** retornar um valor.
 - Também deveriamos separar os dois conceitos(_Command & Query_) **quando possível**, para não criar métodos complexos e possívelmente problematicos que violem este princípio.
 
+## Como é divido
 <p align="center">
   <img align="center" src="https://github.com/matsennin/domain-driven-design/blob/master/images/CQRS_Architecture.png" />
 </p>
@@ -23,3 +24,4 @@
   - Seguindo as ideias dos dois conceitos a segregação e clareza do código aumentam.
   - CQRS é a ideia de Domain Centric Architecture implementado de uma maneira inteligente, pois ele sabe como conversar com o domínio, via _Commands_ e quando conversar direto com a base de dados via _Queries_.
   
+## Existem 3 tipos de implementação de CQRS
