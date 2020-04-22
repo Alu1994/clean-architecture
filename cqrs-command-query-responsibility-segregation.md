@@ -27,3 +27,8 @@
   - Seguindo as ideias dos dois conceitos a segregação e clareza do código aumentam.
   
 ## Existem 3 tipos de implementação de CQRS
+  ### Single-Database CQRS
+  
+  ### Two-Database CQRS
+  
+  ### Event Sourcing CQRS
