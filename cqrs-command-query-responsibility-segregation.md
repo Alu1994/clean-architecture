@@ -28,10 +28,15 @@
   
 ## Existem 3 tipos de implementação de CQRS
   ### "Single-database CQRS"
-    - Esse tipo de CQRS tem somente 1 banco de dados, que normalmente é um SQL ou NoSQL.
-    - Commandos executam comportamentos no domínio que modificam estados, depois são salvos na base de dados através de uma camada de persistência.
-    - Queries são executadas diretas na base de dados, usando uma camada fina de acesso a dados.
-    - É o mais simples dos 3.
+   - Esse tipo de CQRS tem somente 1 banco de dados, que normalmente é um SQL ou NoSQL.
+   - Commandos executam comportamentos no domínio que modificam estados, depois são salvos na base de dados através de uma camada de persistência.
+   - Queries são executadas diretas na base de dados, usando uma camada fina de acesso a dados.
+   - É o mais simples dos 3.
   ### "Two-database CQRS"
-    
+   - Ele possuí 2 bancos de dados, um para leitura e outro para escrita.
+   - O primeiro banco de dados é otimizado para escrita.
+   - O segundo banco de dados é otimizado para leitura.
+   - Os dados salvos no banco de dados de escrita são sincronizados através de uma transação coordenação dos dados ou usando um padrão de Consistencia Eventual.
+   - Ele é mais complexo que o primeiro, porém ele beneficia as melhorias de performance na parte de leitura do projeto.
   ### Event Sourcing CQRS
+   - 
