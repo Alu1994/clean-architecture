@@ -35,3 +35,9 @@
 
 ## Como dividir?
 - Normalmente ele é divido por _Bounded Contexts_(Contextos Limitados) isso trás a vantagem de alta coesão e baixo acoplamento. O que ajuda ao time focar em um único domínio com suas regras. Com isso não há necessidade de conhecer nenhuma regra interna especifica de outro microserviço de outro time, somente suas interfaces para a devida comunicação.
+
+## Prós e Contras em utilizar Microservices
+  - Prós
+    - 
+  - Contras
+    - 
