@@ -18,10 +18,12 @@
         - Clean (by: Uncle Bob [Robert C. Martin])
 
 ## Prós e Contras em utilizar Domain Centric Architecture
+
 ### Prós
 - **Focar no domínio** é essencial para os "habitantes", pois é o ponto mais importante para eles na nossa arquitetura.
 - Nos da **menos acoplamento** entre a lógica de domínio e os detalhes de implementação como apresentação, banco de dados e o sistema operacional. Com isso o sistema fica mais flexível e adaptável, e mais simples de evoluir a arquitetura ao redor durante os anos de desenvolvimento e manutenção do projeto.
 - **Nos possibilita usar o DDD**, que é um auxiliar para generenciar domínios de negócio com um alto grau de complexidade.
+
 ### Contras:
 - **Mudanças são difíceis**, pelo fato de nem todos os desenvolvedores saberem, as vezes ter somente 1 pessoa no time que saiba a fundo sobre o padrão, torna a utilização dele complicada, pois é necessário conhecimento estruturado e tempo para passar para frente.
 - **Requere mais análise**, para saber exatamente o que pertence a camada de Domínio e o que pertence a camada de Aplicação.
@@ -41,7 +43,7 @@
             - Suportar várias implementações
             - E ajudar nas alterações e variações.
 
-### Application Layer
+## Application Layer
    - É onde fica todo o caso de uso do projeto, as ações que são necessárias para cumprir um determinado objetivo, seja gravar um registro, executar um processo ou buscar um relatório.
    - Prós:
         - Foco no caso de uso, que é um dos pontos essenciais aos "habitantes" do projeto.
@@ -51,8 +53,8 @@
         - Camadas são dificeis de manter, e quanto mais camadas, mais complexo o projeto.
         - Exige mais tempo para decidir o que deve estar na camada de **Aplicação**, e o que deve estar na camada de **Domínio**. Ao invés de simplesmente jogar tudo em uma **Camada de Negócio**.
 
-### Classic Three-Layer Architecture
+## Classic Three-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Three-Layer_Architecture.png" />
 
-### Modern Four-Layer Architecture
+## Modern Four-Layer Architecture
    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Modern_Four-Layer_Architecture.png" />
