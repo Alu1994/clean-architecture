@@ -24,3 +24,7 @@
   </p>
 
 # Microservices
+
+- Os limites de contextos nos levam aos microserviços. Microserviços dividem aplicações monolíticas com um super contexto, em subsistemas com contextos menores.
+- Esses microserviços se comunicam através de interfaces bem especificadas, utilizando por exemplo Requests HTTP.
+- 
