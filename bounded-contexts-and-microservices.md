@@ -38,6 +38,8 @@
 
 ## Prós e Contras em utilizar Microservices
 ### Prós
-  - 
+  - A curva de custos em utilizar microserviços é mais plana do que um monolito.
+  - Dividir monolitos em microserviços trás alta coesão e baixo acoplamento, em código, conhecimento de domínio, banco de dados e outros.
+  - Independencia, dividir o sistema em microserviços possíbilita usar padrões de design e tecnologia diferentes entre os projetos conforme a necessidade de cada um deles.
 ### Contras
   - 
