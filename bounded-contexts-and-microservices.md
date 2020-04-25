@@ -28,4 +28,5 @@
 - Os limites de contextos nos levam aos microserviços. Microserviços dividem aplicações monolíticas com um super contexto, em subsistemas com contextos menores.
 - Esses microserviços se comunicam através de interfaces bem especificadas, utilizando por exemplo Requests HTTP.
 - Ele nos permite dividir equipes enormes que cuidam de um super contexto, em equipes menores que cuidam de contextos especificos.
+- Cada um desses microserviços são muito independentes uns dos outros, podendo utilizar bases de dados diferentes, design patterns diferentes bem como linguagens de programação diferentes, tudo conforme suas necessidades especificas.
 - 
