@@ -11,6 +11,16 @@
 - Isso causaria provavelmente em uma consistencia eventual, porém é uma troca justa, tendo em vista a maior clareza e separação das responsabilidades.
 
 - Abaixo um outro exemplo:
+  <p align="center">
+    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Single_Domain_Model.png" />
+  </p>
   
+  <p align="center">
+    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Overlaping_Contexts.png" />
+  </p>
+  
+  <p align="center">
+    <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Bounded_Contexts.png" />
+  </p>
 
 # Microservices
