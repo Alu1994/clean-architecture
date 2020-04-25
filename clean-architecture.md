@@ -16,14 +16,16 @@
         - Hexagonal (by: Alistair Cockburn)
         - Onion (by: Jeffrey Palermo)
         - Clean (by: Uncle Bob [Robert C. Martin])
-    - Prós:
-        - **Focar no domínio** é essencial para os "habitantes", pois é o ponto mais importante para eles na nossa arquitetura.
-        - Nos da **menos acoplamento** entre a lógica de domínio e os detalhes de implementação como apresentação, banco de dados e o sistema operacional. Com isso o sistema fica mais flexível e adaptável, e mais simples de evoluir a arquitetura ao redor durante os anos de desenvolvimento e manutenção do projeto.
-        - **Nos possibilita usar o DDD**, que é um auxiliar para generenciar domínios de negócio com um alto grau de complexidade.
-    - Contras:
-        - **Mudanças são difíceis**, pelo fato de nem todos os desenvolvedores saberem, as vezes ter somente 1 pessoa no time que saiba a fundo sobre o padrão, torna a utilização dele complicada, pois é necessário conhecimento estruturado e tempo para passar para frente.
-        - **Requere mais análise**, para saber exatamente o que pertence a camada de Domínio e o que pertence a camada de Aplicação.
-        - **Maior custo inicial**, no começo o custo pode ser maior devida a maior complexidade de implementação do padrão, mas normalmente ela se paga ao passar do tempo.
+
+## Prós e Contras em utilizar Domain Centric Architecture
+### Prós
+- **Focar no domínio** é essencial para os "habitantes", pois é o ponto mais importante para eles na nossa arquitetura.
+- Nos da **menos acoplamento** entre a lógica de domínio e os detalhes de implementação como apresentação, banco de dados e o sistema operacional. Com isso o sistema fica mais flexível e adaptável, e mais simples de evoluir a arquitetura ao redor durante os anos de desenvolvimento e manutenção do projeto.
+- **Nos possibilita usar o DDD**, que é um auxiliar para generenciar domínios de negócio com um alto grau de complexidade.
+### Contras:
+- **Mudanças são difíceis**, pelo fato de nem todos os desenvolvedores saberem, as vezes ter somente 1 pessoa no time que saiba a fundo sobre o padrão, torna a utilização dele complicada, pois é necessário conhecimento estruturado e tempo para passar para frente.
+- **Requere mais análise**, para saber exatamente o que pertence a camada de Domínio e o que pertence a camada de Aplicação.
+- **Maior custo inicial**, no começo o custo pode ser maior devida a maior complexidade de implementação do padrão, mas normalmente ela se paga ao passar do tempo.
 - **Obs**: Um domínio não pode ter nada além do domínio de negócio em si que será representado no código, tudo fora isso, classes, métodos, qualquer código que não represente o domínio de négocio, deve ficar fora deste projeto.
     - Ex: 
         - Camadas de apresentação
