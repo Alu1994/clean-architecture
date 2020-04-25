@@ -1,7 +1,7 @@
 # Functional Organization
 
 - Organização funcional ou Coesão Funcional, nada mais é do que você organizar o seu projeto por assunto, ao invés de scaffoldings ou convenções de frameworks (Coesão por Categoria utilizando MVC por exemplo).
-- E também ele segue a Screaming Architecture, que é justamente organizar seu projeto pelo assunto pelo qual ele está apelando.
+- Obs: E também ele segue a Screaming Architecture, que é justamente organizar seu projeto pelo assunto pelo qual ele está apelando.
   - Ex: Assistencia Técnica
     - Produtos
     - Ordem de Serviço
