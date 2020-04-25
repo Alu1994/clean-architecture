@@ -1,5 +1,6 @@
 # Bounded Contexts
 
+## O que é?
 - Contextos limitados é basicamente você separar um grande domínio em domínios menores. Quando temos um domínio como por exemplo um sistema de compras, nós temos:
   - Compra
   - Produto
