@@ -22,3 +22,6 @@
   - Contras:
     - Se você não utilizar a estrutura padrão dos frameworks (Coesão por Categoria), normalmente o mesmo lhe forçará a indicar onde classes e arquivos forão definidos.
     - Coesão por Categoria no começo é muito mais simples de implementar, pois geralmente só é necessário seguir a estrutura do scaffolding. Mas ao longo do desenvolvimento a Coesão por Funcionalidade faz mais sentido.
+
+
+[Clean Code Blog](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
