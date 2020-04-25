@@ -25,9 +25,12 @@
 
 # Microservices
 
+## O que é?
 - Os limites de contextos nos levam aos microserviços. Microserviços dividem aplicações monolíticas com um super contexto, em subsistemas com contextos menores.
 - Esses microserviços se comunicam através de interfaces bem especificadas, utilizando por exemplo Requests HTTP.
 - Ele nos permite dividir equipes enormes que cuidam de um super contexto, em equipes menores que cuidam de contextos especificos.
 - Cada um desses microserviços são muito independentes uns dos outros, podendo utilizar bases de dados diferentes, design patterns diferentes bem como linguagens de programação diferentes, tudo conforme suas necessidades especificas.
 - Cada um dos microserviços podem ser publicados individualmente e escalados individualmente conforme a necessidade de cada um deles.
-- 
+
+## Como dividir?
+- Normalmente ele é divido por _Bounded Contexts_(Contextos Limitados) isso trás a vantagem de alta coesão e baixo acoplamento. O que ajuda ao time focar em um único domínio com suas regras. Com isso não há necessidade de conhecer nenhuma regra interna especifica de outro microserviço de outro time, somente suas interfaces para a devida comunicação.
