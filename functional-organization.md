@@ -15,5 +15,5 @@
     - Facilita a navegação na estrutura do projeto.
     - Nos livra de ficar reféns da estrutura do framework que utilizamos em nossos projetos.
   - Contras:
-    - Dependendo do framework se você não utilizar a estrutura padrão (Coesão por Categoria), o mesmo lhe forçará a indicar onde classes e arquivos forão definidos.
+    - Se você não utilizar a estrutura padrão dos frameworks (Coesão por Categoria), normalmente o mesmo lhe forçará a indicar onde classes e arquivos forão definidos.
     - Coesão por Categoria no começo é muito mais simples de implementar, pois geralmente só é necessário seguir a estrutura do scaffolding. Mas ao longo do desenvolvimento a Coesão por Funcionalidade faz mais sentido.
