@@ -29,4 +29,5 @@
 - Esses microserviços se comunicam através de interfaces bem especificadas, utilizando por exemplo Requests HTTP.
 - Ele nos permite dividir equipes enormes que cuidam de um super contexto, em equipes menores que cuidam de contextos especificos.
 - Cada um desses microserviços são muito independentes uns dos outros, podendo utilizar bases de dados diferentes, design patterns diferentes bem como linguagens de programação diferentes, tudo conforme suas necessidades especificas.
+- Cada um dos microserviços podem ser publicados individualmente e escalados individualmente conforme a necessidade de cada um deles.
 - 
