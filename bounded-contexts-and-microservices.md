@@ -44,4 +44,4 @@
 ### Contras
   - Microserviços de inicio tem um custo maior do que um monolito, somente com o tempo o valores se equiparam e o custo do microserviço fica mais barato. Se o contexto de domínio for pequeno ou seu ciclo de projeto for curto, microserviços poderiam ser menos vantajosos.
   - Se a estrutura da empresa for burocratica e complexa, construir microserviços será dificil, devida a alta rejeição por times que provavelmente façam grandes monolitos e pelo modo como a empresa funciona em si.
-  - 
+  - Sistemas distribuidos são complexos por natureza, devido a latencia, alto custo e maior tempo de desenvolvimento. Por isso normalmente os desenvolvedores tendem a começar com somente 1 aplicação, e conforme a necessidade for surgindo, essa aplicação será divida por _Bounded Contexts_.
