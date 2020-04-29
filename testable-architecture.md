@@ -58,6 +58,9 @@ A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ 
 <p align="center">
   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Automation_Pyramid.png" />
 </p>
-  
+
+A piramide de testes consegue captar a essencia de que, cada teste que escolhemos é mais caro dependendo do quanto subimos a piramide.
+
+
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
