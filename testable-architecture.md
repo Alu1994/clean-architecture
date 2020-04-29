@@ -15,9 +15,10 @@ Para nos ajudar, uma das funções do Clean Architecture é justamente facilitar
 TDD é uma pratica de desenvolvimento onde criamos primeiramente um teste que vai falhar, antes de escrevermos qualquer código de produção e usamos esse teste para direcionar o design da arquitetura do projeto.
 
   - O TDD é divido em 3 passos (RED, GREEN, BLUE):
-    - 1 - Criamos o teste que irá falhar, pois ainda não existe nenhum código de produção.
-    - 2 - Criamos o código de produção para que este teste passe.
-
+    - 1 - RED: Criamos o teste que irá falhar, pois ainda não existe nenhum código de produção.
+    - 2 - GREEN: Criamos o código de produção para que este teste passe.
+    - 3 - BLUE: Refatoramos tanto o código de testes como o código de produção.
+    
 <p align="center">
   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Driven_Development.png" />
 </p>
