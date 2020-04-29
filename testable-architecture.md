@@ -53,6 +53,7 @@ A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ 
   - Na base da piramide temos os Unit Tests, que são testes automatizados que verificam a funcionalidade de uma unidade de código isolada.
   - No meio temos os Service Tests, que são testes automatizados que verificam a funcionalidade de um conjunto de classes e métodos que representam um serviço/funcionalidade disponibilizada ao usuário.
   - No topo temos os Coded UI Tests, que são testes automatizados que verificam a funcionalidade da aplicação como um todo, desde um input do usuário até a base de dados.
-
+  - Por fim temos os Manual Tests, que são testes executados por humanos que verificam a funcionalidade da aplicação como um todo também.
+  
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
