@@ -1,11 +1,3 @@
-<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
-
-<div class=".bg-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
-
-
 # Testable Architecture
 
 Por que testes são dificeis e ineficientes?
