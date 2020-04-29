@@ -100,3 +100,4 @@ Para fazer isso de forma menos custosa podemos implementar uma camada intermedi�
   - Contras:
     - É mais caro no inicio. Pode não valer a pena se o projeto for (por exemplo) um console application simples com 0 ou pouquissima regra de negócio que pode ser que rode vez ou outra.
     - TDD exige prática e disciplina, e demora um tempo consideravel para você ficar eficiente e que você se policie para não voltar aos hábitos antigos de desenvolvimento.
+    - Normalmente exige que o time todo esteja comprado com essa ideia. Se o time como um todo não estiver comprado, uma hora ou outra o Teste + o Código Testavel se tornaram obsoletos.
