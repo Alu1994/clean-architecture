@@ -60,6 +60,7 @@ A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ 
 </p>
 
 A piramide de testes consegue captar a essencia de que, cada teste que escolhemos é mais caro dependendo do quanto subimos a piramide.
+E por consequencia quanto mais descemos a piramide, é possível ter mais testes de forma mais barata. Por exemplo os testes unitários são simples e rápidos de fazer, rodam extremamente rapido, raramente falham devidos a falsos positivos, e são bem baratos de serem mantidos.
 
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
