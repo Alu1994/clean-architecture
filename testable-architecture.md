@@ -32,5 +32,15 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
 
 ## Test Automation Pyramid
 
+- Existem varios tipos de testes no ambiente de desenvolvimento.
+  - Exemplos:
+    - Unit Tests
+    - Integration Tests
+    - Component Tests
+    - Service Tests
+    - Coded UI Tests
+    
+
+
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
