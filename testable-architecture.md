@@ -18,6 +18,10 @@ TDD é uma pratica de desenvolvimento onde criamos primeiramente um teste que va
     - 1 - Criamos o teste que irá falhar, pois ainda não existe nenhum código de produção.
     - 2 - Criamos o código de produção para que este teste passe.
 
+<p align="center">
+  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Driven_Development.png" />
+</p>
+
 ## Test Automation Pyramid
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
