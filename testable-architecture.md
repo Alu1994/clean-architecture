@@ -82,5 +82,9 @@ Para fazer isso de forma menos custosa podemos implementar uma camada intermedi�
 
 - O mesmo é feito para a camada de _Cross Cutting Concerns_.
 
+<p align="center">
+  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Example_Acceptance_Tests.png" />
+</p>
+
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
