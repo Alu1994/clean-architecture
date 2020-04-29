@@ -1,9 +1,3 @@
-<table>
-	<tr bgcolor="#FFFF00">
-		<td bgcolor="#FFFF00">Essa linha é amarela!</td>
-	</tr>
-</table>
-
 # Testable Architecture
 
 Por que testes são dificeis e ineficientes?
