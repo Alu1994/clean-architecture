@@ -51,8 +51,8 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
 
 A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ de Mike Cohn, identifica 4 tipos de testes.
   - Na base da piramide temos os Unit Tests, que são testes automatizados que verificam a funcionalidade de uma unidade de código isolada.
-  - No meio temos os Service Tests, que são testes automatizados que verificam a funcionalidade um conjunto de classes e métodos que representam um serviço/funcionalidade disponibilizada ao usuário.
-  
+  - No meio temos os Service Tests, que são testes automatizados que verificam a funcionalidade de um conjunto de classes e métodos que representam um serviço/funcionalidade disponibilizada ao usuário.
+  - No topo temos os Coded UI Tests, que são testes automatizados que verificam a funcionalidade da aplicação como um todo, desde um input do usuário até a base de dados.
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
