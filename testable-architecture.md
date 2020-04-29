@@ -67,7 +67,13 @@ Por consequencia quanto mais descemos a piramide, é possível ter mais testes d
 
 Com isso devemos focar nossos esforços no que trás um bom retorno com a medida exata de esforço. Tendo muitos testes unitários, alguns testes de Serviço, poucos de UI e menos ainda manuais e repetitivos. Na teoria isso nos dá o melhor cenário para nossos esforços na criação de testes.
 
+## Acceptance Tests
 
+Acceptance Tests são testes feitos para verificar a funcionalidade do projeto na linguagem de negócio.
+É possível fazer de forma manual ou através de Coded UI Tests.
+No entanto usar testes manuais ou Coded UI podem ser problematicos devido ao que foi pontuado acima.
+
+Para fazer isso de forma menos custosa podemos implementar uma camada intermediária de Testes de Aceite Automatizados. Isso só é possível implementando Clean Architecture, que nos obriga a deixar nosso domínio e regas de negócio da nossa camada de _application_ isolados das necessidades tecnicas do projeto.
 
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
