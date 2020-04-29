@@ -73,8 +73,9 @@ Acceptance Tests são testes feitos para verificar a funcionalidade do projeto n
 É possível fazer de forma manual ou através de Coded UI Tests.
 No entanto usar testes manuais ou Coded UI podem ser problematicos devido ao que foi pontuado acima.
 
-Para fazer isso de forma menos custosa podemos implementar uma camada intermediária de Testes de Aceite Automatizados. Isso só é possível implementando Clean Architecture, que nos obriga a deixar nosso domínio e regas de negócio da nossa camada de _application_ isolados das necessidades tecnicas do projeto.
+Para fazer isso de forma menos custosa podemos implementar uma camada intermediária de Testes de Aceite Automatizados. Isso só é possível implementando Clean Architecture, que nos obriga a deixar nosso domínio e regas de negócio da nossa camada de _Application_ isolados das necessidades tecnicas do projeto.
 
+Para isso nós devemos primeiro eliminar a camada de Usuário (API/User Interface), fazemos isso chamando diretamente nossos _Commands & Queries_ da nossa camada de _Application_.
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
