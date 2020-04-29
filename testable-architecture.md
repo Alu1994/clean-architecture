@@ -55,5 +55,9 @@ A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ 
   - No topo temos os Coded UI Tests, que são testes automatizados que verificam a funcionalidade da aplicação como um todo, desde um input do usuário até a base de dados.
   - Por fim temos os Manual Tests, que são testes executados por humanos que verificam a funcionalidade da aplicação como um todo também.
   
+<p align="center">
+  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Automation_Pyramid.png" />
+</p>
+  
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
