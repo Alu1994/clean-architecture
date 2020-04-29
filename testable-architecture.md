@@ -86,5 +86,11 @@ Para fazer isso de forma menos custosa podemos implementar uma camada intermedi�
   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Example_Acceptance_Tests.png" />
 </p>
 
+- A implementação deve ser feita na linguagem de negócio e **não deve focar na maneira como ele foi implementado**, deve focar no essencial para o fluxo de negócio.
+- Com isso diminuimos a quantidade de Coded UI Tests na nossa aplicação.
+- Assim podemos usar Smoke Tests, que são um número pequeno de testes que verificam a aplicação como um todo, e validam se a aplicação executa e nada mais, quando todas as peças são unidas e utilizadas em tempo de execução.
+- Também diminuimos a quantidade de testes manuais, assim liberando nossos QAs/POs para fazer um trabalho muito mais importante e gratificante
+
+
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
