@@ -63,7 +63,7 @@ A piramide de testes consegue captar a essencia de que, cada teste que escolhemo
 
 Por consequencia quanto mais descemos a piramide, é possível ter mais testes de forma mais barata. 
 - Por exemplo os testes unitários são simples e rápidos de fazer, rodam extremamente rapido, raramente falham devidos a falsos positivos, e são bem baratos de serem mantidos. Portanto existem menos custos do que outros testes mais acima na piramide.
-- Por outro lado Coded UI Tests são dificil e tomam muito mais tempo para serem criados. Eles também demoram mais tempo para executar, eles são mais frágeis, relativamente não confiavéis e mais dificeis de se manter. Portanto existem mais custos do que outros testes mais abaixo na piramide.
+- Por outro lado Coded UI Tests são dificeis e tomam muito mais tempo para serem criados. Eles também demoram mais tempo para executar, eles são mais frágeis, relativamente não confiavéis e mais dificeis de se manter. Portanto existem mais custos do que outros testes mais abaixo na piramide.
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
