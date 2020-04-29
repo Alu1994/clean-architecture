@@ -1,6 +1,6 @@
 # Testable Architecture
 
-Por que testes são dificeis e ineficientes?
+## Por que testes são dificeis e ineficientes?
 
   - Não há tempo, por que temos uma sprint gigante pra entregar e testes não tem o mesmo valor.
   - Não é meu trabalho, pois existem QAs/POs para fazer esse trabalho.
