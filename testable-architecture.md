@@ -33,17 +33,21 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
 ## Test Automation Pyramid
 
 - Existem varios tipos de testes no ambiente de desenvolvimento.
-  - Alguns testes se baseiam em **o que** eles estão testando, como:
+  - Alguns testes se baseiam em **o que** eles estão testando:
     - Unit Tests
     - Integration Tests
     - Component Tests
     - Service Tests
     - Coded UI Tests
-  - Outros testes se baseiam no **por que** eles estão testando, como:
+  - Outros testes se baseiam no **por que** eles estão testando:
     - Functional Tests
     - Acceptance Tests
     - Smoke Tests
     - Exploratory Tests
-
+  - Outros testes se baseiam em **como** eles estão testando:
+    - Automated Tests
+    - Semi-automated Tests
+    - Manual Tests
+    
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
