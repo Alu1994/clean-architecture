@@ -28,7 +28,7 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
 - Com isso, nós estamos criando testes unitários que fazem sentido para cada cenário que deve ser testado do nosso projeto.
 - Se seguirmos TDD, todas as classes do nosso projeto seram testaveis, ja que os testes estaram guiando o design do projeto.
 - TDD facilita a manutenção do nosso código, pois se escrevermos código para que seja possível testar, ele por default será menos acoplado e mais coeso.
-- 
+- Ele também diminui o medo, medo que se fizermos mudanças em nosso código teremos erros e muita dor de cabeça. Se diminuirmos o medo de alteração no nosso código, iremos aceitar mudanças mais abertamente e manteremos nossa arquitetura limpa.
 
 ## Test Automation Pyramid
 
