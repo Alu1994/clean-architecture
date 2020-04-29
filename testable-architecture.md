@@ -40,7 +40,10 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
     - Service Tests
     - Coded UI Tests
   - Outros testes se baseiam no **por que** eles estão testando, como:
-
+    - Functional Tests
+    - Acceptance Tests
+    - Smoke Tests
+    - Exploratory Tests
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
