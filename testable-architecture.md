@@ -74,8 +74,13 @@ Acceptance Tests são testes feitos para verificar a funcionalidade do projeto n
 No entanto usar testes manuais ou Coded UI podem ser problematicos devido ao que foi pontuado acima.
 
 Para fazer isso de forma menos custosa podemos implementar uma camada intermediária de Testes de Aceite Automatizados. Isso só é possível implementando Clean Architecture, que nos obriga a deixar nosso domínio e regas de negócio da nossa camada de _Application_ isolados das necessidades tecnicas do projeto.
+- Para isso nós devemos primeiro eliminar a camada de Usuário (API/User Interface), fazemos isso chamando diretamente nossos _Commands & Queries_ da nossa camada de _Application_(Mais um motivo de ser importante removermos qualquer regra de negócio da _Presentation Layer_).
 
-Para isso nós devemos primeiro eliminar a camada de Usuário (API/User Interface), fazemos isso chamando diretamente nossos _Commands & Queries_ da nossa camada de _Application_(Mais um motivo de ser importante removermos qualquer regra de negócio da _Presentation Layer_).
+- Depois removemos a nossa base de dados dos testes de aceite, fazemos isso mockando nossa base de dados utilizando (por exemplo) _In-Memory Database_.
+
+- Depois nós removemos qualquer dependencia externa ou do _Sistema Operacional_ da nossa camada de _Infrastructure_, fazemos isso mockando essas dependencias.
+
+- O mesmo é feito para a camada de _Cross Cutting Concerns_.
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
 
