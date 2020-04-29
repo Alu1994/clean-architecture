@@ -25,6 +25,11 @@ Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a
   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Driven_Development.png" />
 </p>
 
+- Com isso, nós estamos criando testes unitários que fazem sentido para cada cenário que deve ser testado do nosso projeto.
+- Se seguirmos TDD, todas as classes do nosso projeto seram testaveis, ja que os testes estaram guiando o design do projeto.
+- TDD facilita a manutenção do nosso código, pois se escrevermos código para que seja possível testar, ele por default será menos acoplado e mais coeso.
+- 
+
 ## Test Automation Pyramid
 
 ## :) Prós & :( Contras em utilizar Testable Architecture
