@@ -18,7 +18,9 @@ TDD é uma pratica de desenvolvimento onde criamos primeiramente um teste que va
     - 1 - RED: Criamos o teste que irá falhar, pois ainda não existe nenhum código de produção.
     - 2 - GREEN: Criamos o código de produção para que este teste passe.
     - 3 - BLUE: Refatoramos tanto o código de testes como o código de produção.
-    
+
+Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a feature esteja completada.
+
 <p align="center">
   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Driven_Development.png" />
 </p>
