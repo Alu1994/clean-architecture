@@ -16,7 +16,7 @@
 
 ## Como é divido?
 <p align="center">
-  <img align="center" src="https://github.com/matsennin/domain-driven-design/blob/master/images/CQRS_Architecture.png" />
+  <img align="center" src="https://github.com/matsennin/clean-architecture/blob/master/images/CQRS_Architecture.png" />
 </p>
 
 - Normalmente a divisão se da na camada de _application_ e fica divido em uma stack para Comandos e outra para Queries. E isso deve ser feito por alguns motivos:
