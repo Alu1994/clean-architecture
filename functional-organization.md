@@ -15,13 +15,13 @@
 
 
 ## Prós e Contras em utilizar Functional Organization
-  - Prós:
-    - Agrupar os itens quando eles fazem sentido juntos. (Garfos, Facas e Colheres) x (Tridente, Garfo e Garfo para colher folhas)
-    - Facilita a navegação na estrutura do projeto.
-    - Nos livra de ficar reféns da estrutura do framework que utilizamos em nossos projetos.
-  - Contras:
-    - Se você não utilizar a estrutura padrão dos frameworks (Coesão por Categoria), normalmente o mesmo lhe forçará a indicar onde classes e arquivos forão definidos.
-    - Coesão por Categoria no começo é muito mais simples de implementar, pois geralmente só é necessário seguir a estrutura do scaffolding. Mas ao longo do desenvolvimento a Coesão por Funcionalidade faz mais sentido.
+### Prós:
+  - Agrupar os itens quando eles fazem sentido juntos. (Garfos, Facas e Colheres) x (Tridente, Garfo e Garfo para colher folhas)
+  - Facilita a navegação na estrutura do projeto.
+  - Nos livra de ficar reféns da estrutura do framework que utilizamos em nossos projetos.
+### Contras:
+  - Se você não utilizar a estrutura padrão dos frameworks (Coesão por Categoria), normalmente o mesmo lhe forçará a indicar onde classes e arquivos forão definidos.
+  - Coesão por Categoria no começo é muito mais simples de implementar, pois geralmente só é necessário seguir a estrutura do scaffolding. Mas ao longo do desenvolvimento a Coesão por Funcionalidade faz mais sentido.
 
 
 [**Clean Code Blog**](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
