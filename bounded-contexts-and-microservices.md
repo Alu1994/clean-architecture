@@ -36,11 +36,12 @@
 ## Como dividir?
 - Normalmente ele é divido por _Bounded Contexts_(Contextos Limitados) isso trás a vantagem de alta coesão e baixo acoplamento. O que ajuda ao time focar em um único domínio com suas regras. Com isso não há necessidade de conhecer nenhuma regra interna especifica de outro microserviço de outro time, somente suas interfaces para a devida comunicação.
 
-## Prós e Contras em utilizar Microservices
+## Prós :) e Contras :( em utilizar Microservices
 ### Prós
   - A curva de custos em utilizar microserviços é mais plana do que um monolito.
   - Dividir monolitos em microserviços trás alta coesão e baixo acoplamento, em código, conhecimento de domínio, banco de dados e outros.
   - Independencia, dividir o sistema em microserviços possíbilita usar padrões de design e tecnologia diferentes entre os projetos conforme a necessidade de cada um deles.
+  
 ### Contras
   - Microserviços de inicio tem um custo maior do que um monolito, somente com o tempo o valores se equiparam e o custo do microserviço fica mais barato. Se o contexto de domínio for pequeno ou seu ciclo de projeto for curto, microserviços poderiam ser menos vantajosos.
   - Se a estrutura da empresa for burocratica e complexa, construir microserviços será dificil, devida a alta rejeição por times que provavelmente façam grandes monolitos e pelo modo como a empresa funciona em si.
