@@ -17,7 +17,7 @@
         - Onion (by: Jeffrey Palermo)
         - Clean (by: Uncle Bob [Robert C. Martin])
 
-## Prós e Contras em utilizar Domain Centric Architecture
+## Prós :) e Contras :( em utilizar Domain Centric Architecture
 
 ### Prós
 - **Focar no domínio** é essencial para os "habitantes", pois é o ponto mais importante para eles na nossa arquitetura.
