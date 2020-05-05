@@ -54,7 +54,7 @@
         - Exige mais tempo para decidir o que deve estar na camada de **Aplicação**, e o que deve estar na camada de **Domínio**. Ao invés de simplesmente jogar tudo em uma **Camada de Negócio**.
 
 ## Classic Three-Layer Architecture
-   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Classic_Three-Layer_Architecture.png" />
+   <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Classic_Three-Layer_Architecture.png" />
 
 ## Modern Four-Layer Architecture
-   <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Modern_Four-Layer_Architecture.png" />
+   <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Modern_Four-Layer_Architecture.png" />
