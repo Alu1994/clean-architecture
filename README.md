@@ -1,10 +1,5 @@
 # Clean Architecture
 
-## [CQRS](https://github.com/matsennin/clean-architecture/blob/master/cqrs-command-query-responsibility-segregation.md)
-## [Functional Organization](https://github.com/matsennin/clean-architecture/blob/master/functional-organization.md)
-## [Bounded Contexts & Microservices](https://github.com/matsennin/clean-architecture/blob/master/bounded-contexts-and-microservices.md)
-## [Testable Architecture](https://github.com/matsennin/clean-architecture/blob/master/testable-architecture.md)
-
 - O principal motivo para implementar Arquitetura limpa é para o beneficio de seus "habitantes".
     - **É em pról dos usuários do sistema:** para que ele tenha a melhor experiencia possivel.
     - **É em pról dos desenvolvedores do sistema:** para que tudo desenvolvido seja de mais simples entendimento, desenvolvimento e manutenção.
@@ -63,3 +58,8 @@
 
 ## Modern Four-Layer Architecture
    <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Modern_Four-Layer_Architecture.png" />
+
+## [CQRS](https://github.com/matsennin/clean-architecture/blob/master/cqrs-command-query-responsibility-segregation.md)
+## [Functional Organization](https://github.com/matsennin/clean-architecture/blob/master/functional-organization.md)
+## [Bounded Contexts & Microservices](https://github.com/matsennin/clean-architecture/blob/master/bounded-contexts-and-microservices.md)
+## [Testable Architecture](https://github.com/matsennin/clean-architecture/blob/master/testable-architecture.md)
