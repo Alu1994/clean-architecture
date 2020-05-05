@@ -14,7 +14,7 @@
 - Afinal é muito mais simples entender a intenção/real motivo do projeto quando organizamos por assunto.
 
 
-## Prós e Contras em utilizar Functional Organization
+## :) Prós e :( Contras em utilizar Functional Organization
 ### Prós:
   - Agrupar os itens quando eles fazem sentido juntos. (Garfos, Facas e Colheres) x (Tridente, Garfo e Garfo para colher folhas)
   - Facilita a navegação na estrutura do projeto.
