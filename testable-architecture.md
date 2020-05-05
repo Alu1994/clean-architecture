@@ -92,7 +92,7 @@ Para fazer isso de forma menos custosa podemos implementar uma camada intermedi�
 - Também diminuimos a quantidade de testes manuais, assim liberando nossos QAs/POs para fazer um trabalho muito mais importante e gratificante. Por exemplo fazendo testes exploratórios, garantindo a melhor experiencia para nossos usuários finais.
 
 
-## :) Prós & :( Contras em utilizar Testable Architecture
+## Prós :) & :( Contras em utilizar Testable Architecture
 ### Prós:
   - Aplicando esses conceitos nós facilitamos a testabilidade do nosso código, também facilitando sua manutenção. (Queremos que todos façam testes e pratiquem TDD {se possivel for rs}).
   - Criar uma arquitetura testavel, melhora a arquitetura em si.
