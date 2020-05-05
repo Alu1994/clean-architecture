@@ -22,7 +22,7 @@ TDD é uma pratica de desenvolvimento onde criamos primeiramente um teste que va
 Nós devemos repetir esses 3 passos, para todos os métodos e classes até que a feature esteja completada.
 
 <p align="center">
-  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Driven_Development.png" />
+  <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Test_Driven_Development.png" />
 </p>
 
 - Com isso, nós estamos criando testes unitários que fazem sentido para cada cenário que deve ser testado do nosso projeto.
@@ -56,7 +56,7 @@ A piramide automatizada de testes descrita no livro _**Succeeding with agile**_ 
   - Por fim temos os Manual Tests, que são testes executados por humanos que verificam a funcionalidade da aplicação como um todo também.
   
 <p align="center">
-  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Test_Automation_Pyramid.png" />
+  <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Test_Automation_Pyramid.png" />
 </p>
 
 A piramide de testes consegue captar a essencia de que, cada teste que escolhemos é mais caro dependendo do quanto subimos a piramide.
@@ -83,7 +83,7 @@ Para fazer isso de forma menos custosa podemos implementar uma camada intermedi�
 - O mesmo é feito para a camada de _Cross Cutting Concerns_.
 
 <p align="center">
-  <img src="https://github.com/matsennin/domain-driven-design/blob/master/images/Example_Acceptance_Tests.png" />
+  <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Example_Acceptance_Tests.png" />
 </p>
 
 - A implementação deve ser feita na linguagem de negócio e **não deve focar na maneira como ele foi implementado**, deve focar no essencial para o fluxo de negócio.
