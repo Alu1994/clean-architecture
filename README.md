@@ -9,12 +9,6 @@
     - Construir somente **o que é necessário quando for necessário**.
     - A Arquitetura Limpa ajuda na **Otimização e Manutenabilidade**, que é a maioria das atividades do nosso dia a dia.
 
-- ## [CQRS](https://github.com/matsennin/clean-architecture/blob/master/cqrs-command-query-responsibility-segregation.md)
-- ## [Functional Organization](https://github.com/matsennin/clean-architecture/blob/master/functional-organization.md)
-- ## [Bounded Contexts & Microservices](https://github.com/matsennin/clean-architecture/blob/master/bounded-contexts-and-microservices.md)
-- ## [Testable Architecture](https://github.com/matsennin/clean-architecture/blob/master/testable-architecture.md)
-
-
 ## Domain Centric Architecture
 
 - O principal motivo para implementar o Modelo de Arquitetura Centrada em Domínio é focar no que é mais importante o Dominio de Negócio.
@@ -64,3 +58,10 @@
 
 ## Modern Four-Layer Architecture
    <img src="https://github.com/matsennin/clean-architecture/blob/master/images/Modern_Four-Layer_Architecture.png" />
+
+
+## Abaixo alguns itens complementares importantes
+- ## [CQRS](https://github.com/matsennin/clean-architecture/blob/master/cqrs-command-query-responsibility-segregation.md)
+- ## [Functional Organization](https://github.com/matsennin/clean-architecture/blob/master/functional-organization.md)
+- ## [Bounded Contexts & Microservices](https://github.com/matsennin/clean-architecture/blob/master/bounded-contexts-and-microservices.md)
+- ## [Testable Architecture](https://github.com/matsennin/clean-architecture/blob/master/testable-architecture.md)
